@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.gitlab/*"],
+      "matches": ["https://*.gitlab.ciss.com.br/*"],
       "js": ["contentScript.js"]
     }
   ]
