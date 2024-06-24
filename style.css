@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+body{
+  width: 400px;
+  height: 100px;
+  background-color: #1d2125;
+  color: #b6c2cf;
+}
+.popup-title{
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+  font-size: 15pt;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100%;
+}
+.btn-execute{
+  border: none;
+  cursor: pointer;
+  background-color: #579dff;
+  color: #fff; 
+  font-size: 12pt;
+  padding: 5px 30px;
+  border-radius: 3px;
+  transition: all 400ms ease;
+}
+.btn-execute:hover {
+  background-color: #85b8ff;
+}
+.btn-execute:active {
+  border: 1px solid #A6C5E229;
+  background-color: #b6c2cf;
+  color: #22272b;
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "Identificador de Métodos PB",
+  "description": "Identificador de Métodos para PowerBuilder",
+  "author": "Safadão",
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.gitlab/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
